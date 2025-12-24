@@ -12,15 +12,15 @@ function Hero() {
 
             <div className="text-8xl font-extrabold text-secondary text-center">
                 <p>Hi There, I'm Laras</p>
-                <p>Welcome to My Portfolio</p>
+                <p>Welcome to My Portofolio</p>
             </div>
 
             <div className="flex justify-center my-9">
                 <div className="grid grid-cols-2 gap-4 font-bold">
-                    <a className="bg-accent px-3 py-1 text-secondary rounded-md hover:bg-accent2 hover:text-primary">
+                    <a href="https://drive.google.com/file/d/19zBVgwd6c_v04oLJXaqTfAfQWtlq8_sF/view?usp=drive_link" className="bg-accent px-3 py-1 text-secondary rounded-md hover:bg-accent2 hover:text-primary">
                         Download My CV
                     </a>
-                    <a className="bg-secondary px-3 py-1 text-accent rounded-md hover:bg-accent2 hover:text-primary">
+                    <a href="#about" className="bg-secondary px-3 py-1 text-accent rounded-md hover:bg-accent2 hover:text-primary">
                         Know Me as Well
                     </a>
                 </div>

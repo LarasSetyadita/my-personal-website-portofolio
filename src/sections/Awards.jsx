@@ -23,8 +23,8 @@ export default function Awards() {
   ];
 
   return (
-    <section className="mx-20 my-32">
-      <div className="text-center text-secondary mb-16">
+    <section id="awards" className="mx-20 my-24">
+      <div className="text-center text-secondary mb-8">
         <h1 className="text-7xl font-extrabold mb-4">
           Awards & Honor
         </h1>

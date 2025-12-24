@@ -10,6 +10,8 @@ function Navbar() {
                     <a href="#about" className="hover:text-accent2">About Me</a>
                     <a href="#projects" className="hover:text-accent2">Project</a>
                     <a href="#contact" className="hover:text-accent2">Contact</a>
+                    <a href="#awards" className="hover:text-accent2">Awards</a>
+                    
                 </div>
   
                 <div className="col-span-1 flex justify-end">

@@ -1,4 +1,4 @@
-function ProjectCard({ image, title, role, desc, date }) {
+function ProjectCard({ image, title, role, desc, date, code }) {
     return (
         <div>
             <img src={image} className="rounded-3xl shadow-md" />
@@ -8,7 +8,7 @@ function ProjectCard({ image, title, role, desc, date }) {
                 <p className="text-sm">{desc}</p>
                 <p className="font-semibold text-gray-800 text-sm">{date}</p>
             </div>
-            <a className="bg-accent2 px-3 py-1 rounded-xl hover:bg-secondary text-primary font-bold">
+            <a href={code} className="bg-accent2 px-3 py-1 rounded-xl hover:bg-secondary text-primary font-bold">
                 Source Code
             </a>
         </div>
