@@ -29,14 +29,14 @@ function AboutMe() {
 
                     <div className="grid grid-cols-3 gap-4 font-extrabold text-center">
                         {["Data Analyst", "Machine Learning Engineer", "Web Developer"].map(
-                        (role) => (
-                            <div
-                            key={role}
-                            className="bg-accent rounded-lg py-2"
-                            >
-                            {role}
-                            </div>
-                        )
+                            (role) => (
+                                <div
+                                    key={role}
+                                    className="bg-accent rounded-lg py-2"
+                                >
+                                    {role}
+                                </div>
+                            )
                         )}
                     </div>
                 </div>
