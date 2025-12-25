@@ -2,7 +2,7 @@ import ProjectCard from "../components/ProjectCard"
 import portfolioImg from "../assets/images/my-portofolio.png"
 import mindGardenImg from "../assets/images/MindGarden.png"
 import foodinaryImg from "../assets/images/foodinary.png"
-import salesDataAnalysis from "../assets/images/salesData.png"
+import salesDataAnalysis from "../assets/images/SalesData.png"
 
 function Projects() {
     const projects = [
