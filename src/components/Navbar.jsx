@@ -16,7 +16,7 @@ function Navbar() {
   
                 <div className="col-span-1 flex justify-end">
                     <a href="#login" className="bg-accent hover:bg-accent2 hover:text-primary px-5 rounded-xl font-bold py-1">
-                        Login
+                        Contact Me
                     </a>
                 </div>
                 

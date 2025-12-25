@@ -28,7 +28,7 @@ export default function Awards() {
         <h1 className="text-7xl font-extrabold mb-4">
           Awards & Honor
         </h1>
-        <h2 className="text-xl">
+        <h2 className="text-xl mb-4">
           A few milestones and achievements that shaped my journey.
         </h2>
       </div>

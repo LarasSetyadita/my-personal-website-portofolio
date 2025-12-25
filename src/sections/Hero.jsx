@@ -15,7 +15,7 @@ function Hero() {
                 <p>Welcome to My Portofolio</p>
             </div>
 
-            <div className="flex justify-center my-9">
+            <div className="flex justify-center my-10">
                 <div className="grid grid-cols-2 gap-4 font-bold">
                     <a href="https://drive.google.com/file/d/19zBVgwd6c_v04oLJXaqTfAfQWtlq8_sF/view?usp=drive_link" className="bg-accent px-3 py-1 text-secondary rounded-md hover:bg-accent2 hover:text-primary">
                         Download My CV
