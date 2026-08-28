@@ -50,7 +50,7 @@ function About() {
             </div>
 
             {/* Roles */}
-            <div className="grid grid-cols-1 gap-3 pt-2 font-bold text-center sm:grid-cols-3 sm:gap-4">
+            <div className="grid grid-cols-1 gap-3 pt-2 font-bold text-center sm:grid-cols-2 sm:gap-4">
 
               <div className="rounded-xl bg-[#8FA98F] px-2 py-3 text-sm transition-transform hover:-translate-y-1 sm:text-base">
                 Data Analyst
@@ -60,9 +60,6 @@ function About() {
                 Machine Learning Engineer
               </div>
 
-              <div className="rounded-xl bg-[#8FA98F] px-2 py-3 text-sm transition-transform hover:-translate-y-1 sm:text-base">
-                Web Developer
-              </div>
 
             </div>
           </div>

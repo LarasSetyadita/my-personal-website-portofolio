@@ -36,7 +36,7 @@ function Projects() {
     >
 
 
-      <div className="relative z-10 mx-auto max-w-7xl">
+      <div className=" reveal relative z-10 mx-auto max-w-7xl">
 
         {/* Section Header */}
         <div className="reveal mb-12 max-w-2xl">

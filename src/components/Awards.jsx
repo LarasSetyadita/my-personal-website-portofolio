@@ -19,7 +19,7 @@ const awards = [
 function Awards() {
   return (
     <section id="awards" className="px-5 pb-24 sm:px-8 lg:px-12">
-      <div className="mx-auto max-w-7xl text-center">
+      <div className="reveal mx-auto max-w-7xl text-center">
 
         {/* Section Header */}
         <div className="reveal mx-auto mb-12 max-w-2xl">

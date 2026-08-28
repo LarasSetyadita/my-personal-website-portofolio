@@ -45,7 +45,7 @@ function Contact() {
                 key={social.name}
                 href={social.url}
                 aria-label={social.name}
-                className="rounded-2xl bg-[#FAF8F3]/60 p-3 transition-transform hover:-translate-y-1 hover:bg-[#FAF8F3]"
+                className="rounded-2xl bg-[#FAF8F3]/60 p-3 transition-transform hover:-translate-y-1 hover:bg-[#4F6B52]"
               >
                 <img
                   src={social.icon}

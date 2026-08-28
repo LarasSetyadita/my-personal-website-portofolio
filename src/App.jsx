@@ -5,8 +5,11 @@ import Projects from "./components/Projects";
 import Awards from "./components/Awards";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import useReveal from "./hooks/useReveal";
 
 function App() {
+  useReveal();
+
   return (
     <>
       <Navbar />
