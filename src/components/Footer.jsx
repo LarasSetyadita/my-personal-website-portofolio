@@ -1,12 +1,11 @@
 function Footer() {
-    return (
-        <footer className="w-full bg-secondary text-center py-4">
-            <p className="text-primary">
-            created with love by Dwi Laras Setyadita
-            </p>
-        </footer>
-    );
-}
-
-  export default Footer
+    const currentYear = new Date().getFullYear();
   
+    return (
+      <footer className="w-full bg-[#243027] py-6 text-center text-sm text-[#FAF8F3]">
+        Created with love by Dwi Laras Setyadita &copy; {currentYear}
+      </footer>
+    );
+  }
+  
+  export default Footer;
