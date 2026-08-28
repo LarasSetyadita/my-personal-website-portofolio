@@ -13,7 +13,7 @@ const projects = [
     role: "Machine Learning Engineer",
     description:
       "A mobile app that supports users' self-healing with personalized generative-AI responses and calming visuals.",
-    date: "October 2025 – Present",
+    date: "March 2025 – June 2025",
     image: "/images/Pekan IT - TryHard - Mind Garden - Slide Deck.png",
     link: "#",
   },
@@ -22,7 +22,7 @@ const projects = [
     role: "Project Manager . Machine Learning Engineer",
     description:
       "A food-tracking application that helps users log meals and understand their nutrition at a glance.",
-    date: "October 2025 – Present",
+    date: "February 2025 – June 2025",
     image: "/images/foodinary.png",
     link: "#",
   },
