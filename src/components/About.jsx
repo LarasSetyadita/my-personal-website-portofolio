@@ -3,11 +3,10 @@ function About() {
     <section id="about" className="px-5 sm:px-8 lg:px-12">
       <div className="reveal relative mx-auto max-w-7xl overflow-hidden rounded-3xl bg-[#EDF1E7] px-6 py-14 sm:px-12">
 
-
         <div className="relative z-10 grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
 
           {/* Image */}
-          <div className="order-2 lg:order-1">
+          <div className="order-1 lg:order-1">
             <img
               src="/images/about-me.png"
               alt="Portrait of Dwi Laras Setyadita"
@@ -16,7 +15,7 @@ function About() {
           </div>
 
           {/* Content */}
-          <div className="order-1 space-y-6 lg:order-2">
+          <div className="order-2 space-y-6 lg:order-2">
 
             <h2 className="font-display text-4xl font-extrabold text-[#243027] sm:text-5xl lg:text-6xl">
               About Me
@@ -74,4 +73,3 @@ function About() {
 }
 
 export default About;
-

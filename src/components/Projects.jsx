@@ -6,7 +6,7 @@ const projects = [
       "A personal portfolio site built to present my projects, skills, and experience in a clean, responsive layout.",
     date: "October 2025 – Present",
     image: "/images/my-portofolio.png",
-    link: "#",
+    link: "https://github.com/LarasSetyadita/my-personal-website-portofolio.git",
   },
   {
     title: "MindGarden",
@@ -15,7 +15,7 @@ const projects = [
       "A mobile app that supports users' self-healing with personalized generative-AI responses and calming visuals.",
     date: "March 2025 – June 2025",
     image: "/images/Pekan IT - TryHard - Mind Garden - Slide Deck.png",
-    link: "#",
+    link: "https://github.com/MindGardenApp",
   },
   {
     title: "Foodinary",
@@ -24,7 +24,7 @@ const projects = [
       "A food-tracking application that helps users log meals and understand their nutrition at a glance.",
     date: "February 2025 – June 2025",
     image: "/images/foodinary.png",
-    link: "#",
+    link: "https://github.com/foodinary-project",
   },
 ];
 

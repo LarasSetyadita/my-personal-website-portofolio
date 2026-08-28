@@ -65,12 +65,15 @@ function Hero() {
         {/* Buttons */}
         <div className="mx-auto mt-10 flex max-w-md flex-col justify-center gap-4 sm:flex-row">
 
-          <a
-            href="#"
-            className="rounded-xl bg-[#4F6B52] px-6 py-3 text-center font-semibold text-[#FAF8F3] transition-all hover:-translate-y-0.5 hover:bg-[#243027]"
-          >
-            Download My CV
-          </a>
+        <a
+          href="https://drive.google.com/file/d/16qshraL5EwDbIitPZM2SYdRtJS9_g5Bp/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-xl bg-[#4F6B52] px-6 py-3 text-center font-semibold text-[#FAF8F3] transition-all hover:-translate-y-0.5 hover:bg-[#243027]"
+        >
+          Download My CV
+        </a>
+
 
           <a
             href="#about"

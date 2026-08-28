@@ -3,22 +3,22 @@ function Contact() {
     {
       name: "GitHub",
       icon: "/images/github.png",
-      url: "#",
+      url: "https://github.com/LarasSetyadita",
     },
     {
       name: "Instagram",
       icon: "/images/instagram.png",
-      url: "#",
+      url: "https://www.instagram.com/rastyaditaa/",
     },
     {
       name: "LinkedIn",
       icon: "/images/linkedin.png",
-      url: "#",
+      url: "https://www.linkedin.com/in/dwi-laras-setyadita/",
     },
     {
       name: "Email",
       icon: "/images/email.png",
-      url: "mailto:",
+      url: "mailto:dwilarassetyadita@gmail.com",
     },
   ];
 
