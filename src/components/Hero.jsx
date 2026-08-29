@@ -46,7 +46,7 @@ function Hero() {
 
         {/* Subtitle */}
         <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-[#4F6B52] sm:text-sm">
-          Data Analyst · ML Engineer · Web Developer
+          Data Analyst · ML Engineer
         </p>
 
         {/* Typewriter */}

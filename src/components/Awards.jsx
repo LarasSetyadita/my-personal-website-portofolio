@@ -18,45 +18,71 @@ const awards = [
 
 function Awards() {
   return (
-    <section id="awards" className="px-5 pb-24 sm:px-8 lg:px-12">
-      <div className="reveal mx-auto max-w-7xl text-center">
+    <section
+      id="awards"
+      className="scroll-mt-4 px-5 py-12 sm:px-8 sm:py-16 lg:px-12"
+    >
+      <div className="mx-auto max-w-7xl text-center">
 
-        {/* Section Header */}
+        {/* ================= HEADER ================= */}
+
         <div className="reveal mx-auto mb-12 max-w-2xl">
+
           <h2 className="mb-3 font-display text-4xl font-extrabold text-[#243027] sm:text-5xl lg:text-6xl">
             Awards &amp; Honors
           </h2>
 
-          <p className="text-base text-[#243027]/80 sm:text-lg">
+          <p className="text-base leading-relaxed text-[#243027]/80 sm:text-lg">
             A few milestones and achievements that shaped my journey.
           </p>
+
         </div>
 
-        {/* Awards */}
+        {/* ================= AWARDS ================= */}
+
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 lg:grid-cols-3">
 
           {awards.map((award) => (
-            <div
+            <article
               key={award.title}
-              className="reveal card-hover flex flex-col items-center justify-center rounded-3xl bg-[#EDF1E7] p-8"
+              className="
+                reveal
+                card-hover
+                flex
+                min-h-[200px]
+                flex-col
+                items-center
+                justify-center
+                rounded-3xl
+                bg-[#EDF1E7]
+                p-8
+              "
             >
+
+              {/* Decoration */}
+
               <img
                 src={award.decoration}
                 alt=""
                 aria-hidden="true"
-                className="mb-4 w-10"
+                className="mb-5 w-10"
               />
 
-              <p className="font-semibold text-[#243027]">
+              {/* Award */}
+
+              <p className="font-semibold leading-relaxed text-[#243027]">
                 {award.title}
               </p>
-            </div>
+
+            </article>
           ))}
 
         </div>
+
       </div>
     </section>
   );
 }
 
 export default Awards;
+

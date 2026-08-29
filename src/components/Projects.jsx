@@ -1,14 +1,5 @@
 const projects = [
   {
-    title: "MyPortofolio",
-    role: "Full-stack Engineer",
-    description:
-      "A personal portfolio site built to present my projects, skills, and experience in a clean, responsive layout.",
-    date: "October 2025 – Present",
-    image: "/images/my-portofolio.png",
-    link: "https://github.com/LarasSetyadita/my-personal-website-portofolio.git",
-  },
-  {
     title: "MindGarden",
     role: "Machine Learning Engineer",
     description:
@@ -25,6 +16,33 @@ const projects = [
     date: "February 2025 – June 2025",
     image: "/images/foodinary.png",
     link: "https://github.com/foodinary-project",
+  },
+  {
+    title: "Sales Demand Revenue Analisis",
+    role: "Data Analyst",
+    description:
+      "A food-tracking application that helps users log meals and understand their nutrition at a glance.",
+    date: "December 2025",
+    image: "/images/dashboard sales data analysis.png",
+    link: "https://github.com/LarasSetyadita/sales-demand-revenue-analysis.git",
+  },
+  {
+    title: "Prediksi Resiko Penyakit <ental",
+    role: "Machine Learning Engineer . Data Analyst",
+    description:
+      "Develops a machine learning model to predict an individual's mental health risk based on psychological and lifestyle factors, with Random Forest achieving the best overall performance..",
+    date: "May 2025",
+    image: "/images/prediksi resiko penyakit mental.png",
+    link: "https://github.com/LarasSetyadita/Project-Pertama-Machine-Learning-Terapan-Predictive-Analytics.git",
+  },
+  {
+    title: "MyPortofolio",
+    role: "Full-stack Engineer",
+    description:
+      "A personal portfolio site built to present my projects, skills, and experience in a clean, responsive layout.",
+    date: "October 2025 – Present",
+    image: "/images/my-portofolio.png",
+    link: "https://github.com/LarasSetyadita/my-personal-website-portofolio.git",
   },
 ];
 
@@ -51,12 +69,12 @@ function Projects() {
         </div>
 
         {/* Project Cards */}
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-10 lg:grid-cols-3">
+        <div className=" grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-10 lg:grid-cols-3">
 
           {projects.map((project) => (
             <article
               key={project.title}
-              className="reveal card-hover overflow-hidden rounded-3xl bg-white/40"
+              className="reveal card-hover overflow-hidden rounded-3xl bg-white/100"
             >
 
               {/* Project Image */}

@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <header className="fixed top-0 inset-x-0 z-50">
+    <header className="fixed inset-x-0 top-0 z-50">
       <nav className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
         <div className="mt-3 flex items-center justify-between rounded-2xl bg-[#FAF8F3]/80 px-5 py-3 shadow-sm backdrop-blur-md sm:px-6">
 
@@ -14,11 +14,19 @@ function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden items-center gap-8 text-sm font-medium md:flex lg:text-base">
+
             <a
               href="#about"
               className="nav-link hover:text-[#4F6B52]"
             >
               About Me
+            </a>
+
+            <a
+              href="#skills"
+              className="nav-link hover:text-[#4F6B52]"
+            >
+              Skills
             </a>
 
             <a
@@ -41,6 +49,7 @@ function Navbar() {
             >
               Contact
             </a>
+
           </div>
 
           {/* Let's Talk */}
@@ -71,4 +80,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
