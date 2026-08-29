@@ -33,13 +33,13 @@ const hardSkills = [
     certificates: [
       {
         name: "Certificate 1",
-        issuer: "Dicoding",
-        link: "#",
+        issuer: "BNSP",
+        link: "https://drive.google.com/file/d/1wPtTWHBH-ohWHaTXC4uhFSvA6zB0U2wU/view?usp=sharing",
       },
       {
         name: "Certificate 2",
-        issuer: "Coursera",
-        link: "#",
+        issuer: "Dicoding",
+        link: "https://drive.google.com/file/d/1DLhbJkI9SoyJCkAZcBgCV2oaWdfxQwP-/view?usp=sharing",
       },
     ],
   },
@@ -53,13 +53,13 @@ const hardSkills = [
     certificates: [
       {
         name: "Certificate 1",
-        issuer: "Dicoding",
-        link: "#",
+        issuer: "Coding Camp powered by DBS Foundation",
+        link: "https://drive.google.com/file/d/1rFCE1rsae3ror1C37FvmgzsyFzWiu3it/view?usp=sharing",
       },
       {
         name: "Certificate 2",
-        issuer: "Google",
-        link: "#",
+        issuer: "Dicoding",
+        link: "https://drive.google.com/file/d/1x2cz4o1g-kmxeuhMomelBNi8POi-E3DJ/view?usp=sharing",
       },
     ],
   },
@@ -74,7 +74,7 @@ const hardSkills = [
       {
         name: "Certificate 1",
         issuer: "Dicoding",
-        link: "#",
+        link: "https://drive.google.com/file/d/1uwp2bRn8x2KpkXY-SqaJCAIQ-eOm-TZS/view?usp=sharing",
       },
     ],
   },

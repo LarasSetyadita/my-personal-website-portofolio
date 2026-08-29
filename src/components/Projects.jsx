@@ -12,7 +12,7 @@ const projects = [
     title: "Foodinary",
     role: "Project Manager . Machine Learning Engineer",
     description:
-      "A food-tracking application that helps users log meals and understand their nutrition at a glance.",
+      "Developed a web-based platform featuring machine learning-based image recognition to identify Indonesian traditional recipes.",
     date: "February 2025 – June 2025",
     image: "/images/foodinary.png",
     link: "https://github.com/foodinary-project",
@@ -21,16 +21,16 @@ const projects = [
     title: "Sales Demand Revenue Analisis",
     role: "Data Analyst",
     description:
-      "A food-tracking application that helps users log meals and understand their nutrition at a glance.",
+      "Analyzed sales data using Python and Power BI to identify trends, product performance, regional demand, and revenue insights for business strategy.",
     date: "December 2025",
     image: "/images/dashboard sales data analysis.png",
     link: "https://github.com/LarasSetyadita/sales-demand-revenue-analysis.git",
   },
   {
-    title: "Prediksi Resiko Penyakit <ental",
+    title: "Prediksi Resiko Penyakit Mental",
     role: "Machine Learning Engineer . Data Analyst",
     description:
-      "Develops a machine learning model to predict an individual's mental health risk based on psychological and lifestyle factors, with Random Forest achieving the best overall performance..",
+      "Develops a machine learning model to predict mental health risk using psychological and lifestyle factors, with Random Forest delivering the best performance.",
     date: "May 2025",
     image: "/images/prediksi resiko penyakit mental.png",
     link: "https://github.com/LarasSetyadita/Project-Pertama-Machine-Learning-Terapan-Predictive-Analytics.git",
