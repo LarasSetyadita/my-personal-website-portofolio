@@ -27,6 +27,15 @@ const projects = [
     link: "https://github.com/LarasSetyadita/sales-demand-revenue-analysis.git",
   },
   {
+    title: "Bank Transaction Clustering and Classification",
+    role: "Data Analyst . Machine Learning Engineer",
+    description:
+      "Built a K-Means clustering model to segment banking customers based on their transaction behavior.",
+    date: "May 2025",
+    image: "/images/clustering.jpeg",
+    link: "https://github.com/LarasSetyadita/Bank-Transaction-Data-Clustering-and-Classification.git",
+  },
+  {
     title: "Prediksi Resiko Penyakit Mental",
     role: "Machine Learning Engineer . Data Analyst",
     description:

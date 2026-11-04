@@ -55,3 +55,35 @@ h3,
 @media (prefers-reduced-motion: reduce) { 
   .tools-marquee { animation: none; } 
 }
+
+
+/* ================================
+   SCROLL REVEAL ANIMATION
+================================ */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(25px);
+
+  transition:
+    opacity 0.7s ease-out,
+    transform 0.7s ease-out;
+
+  will-change: opacity, transform;
+}
+
+/* Element becomes visible */
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+    will-change: auto;
+  }
+}

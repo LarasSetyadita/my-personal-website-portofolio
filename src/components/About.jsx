@@ -1,3 +1,4 @@
+
 function About() {
   return (
     <section
@@ -8,18 +9,18 @@ function About() {
 
         <div className="relative z-10 grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
 
-          {/* ================= IMAGE ================= */}
-
+          {/* IMAGE */}
           <div className="order-1">
             <img
               src="/images/about-me.png"
               alt="Portrait of Dwi Laras Setyadita"
+              loading="lazy"
+              decoding="async"
               className="mx-auto w-full max-w-md rounded-2xl"
             />
           </div>
 
-          {/* ================= CONTENT ================= */}
-
+          {/* CONTENT */}
           <div className="order-2 space-y-6">
 
             <h2 className="font-display text-4xl font-extrabold text-[#243027] sm:text-5xl lg:text-6xl">
@@ -54,22 +55,20 @@ function About() {
 
             </div>
 
-            {/* ================= ROLES ================= */}
-
+            {/* ROLES */}
             <div className="grid grid-cols-1 gap-3 pt-2 text-center font-bold sm:grid-cols-2 sm:gap-4">
 
-              <div className="rounded-xl bg-[#8FA98F] px-2 py-3 text-sm transition-transform hover:-translate-y-1 sm:text-base">
+              <div className="rounded-xl bg-[#8FA98F] px-2 py-3 text-sm transition-transform duration-300 hover:-translate-y-1 sm:text-base">
                 Data Analyst
               </div>
 
-              <div className="rounded-xl bg-[#8FA98F] px-2 py-3 text-sm leading-tight transition-transform hover:-translate-y-1 sm:text-base">
+              <div className="rounded-xl bg-[#8FA98F] px-2 py-3 text-sm leading-tight transition-transform duration-300 hover:-translate-y-1 sm:text-base">
                 Machine Learning Engineer
               </div>
 
             </div>
 
           </div>
-
         </div>
       </div>
     </section>
@@ -77,4 +76,3 @@ function About() {
 }
 
 export default About;
-
