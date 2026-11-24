@@ -7,6 +7,7 @@ import Awards from "./components/Awards";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import useReveal from "./hooks/useReveal";
+import Experience from "./components/Experiences";
 
 function App() {
   useReveal();
@@ -18,6 +19,7 @@ function App() {
       <main>
         <Hero />
         <About />
+        <Experience />
         <Skills />
         <Projects />
         <Awards />
