@@ -7,7 +7,7 @@ import Awards from "./components/Awards";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import useReveal from "./hooks/useReveal";
-import Experience from "./components/Experiences";
+import Experience from "./components/Experience";
 
 function App() {
   useReveal();

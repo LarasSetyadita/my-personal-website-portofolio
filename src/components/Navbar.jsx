@@ -23,6 +23,13 @@ function Navbar() {
             </a>
 
             <a
+              href="#experience"
+              className="nav-link hover:text-[#4F6B52]"
+            >
+              Experience
+            </a>
+
+            <a
               href="#skills"
               className="nav-link hover:text-[#4F6B52]"
             >
@@ -41,13 +48,6 @@ function Navbar() {
               className="nav-link hover:text-[#4F6B52]"
             >
               Awards
-            </a>
-
-            <a
-              href="#contact"
-              className="nav-link hover:text-[#4F6B52]"
-            >
-              Contact
             </a>
 
           </div>
